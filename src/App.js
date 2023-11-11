@@ -1,14 +1,8 @@
 import './App.css';
 import Calculator from './components/Calculator';
-import {useState} from 'react';
 
 function App() {
-  // Hooks that control the calculations
-  const [data, setData] = useState("");
-  const calcBtns = [];
   
-
-
   // Website layout
   return (
     <>
